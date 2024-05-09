@@ -1,19 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bulb</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+
+        }
+
+        button {
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+
+            font-weight: 500;
+        }
+
+        button:hover {
+            background-color: rgb(0, 26, 255);
+            color: aliceblue;
+            font-size: medium;
+            transition-delay: 0.1s;
+
+        }
+    </style>
+
 </head>
+
 <body>
-    
-    <p>Bulb on and off</p>
-    
-    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-    
-    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
-    
-    <!-- <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> -->
-    
-    </body>
+
+    <h1>Bulb on and off</h1>
+
+    <div>
+
+
+        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+
+
+    </div>
+    <br><br>
+    <div class="btn">
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    </div>
+</body>
+
 </html>
