@@ -29,16 +29,16 @@ h1 {
 	  letter-spacing: 0.09375rem;
 	  background: #fff;
           cursor: pointer;
-	  background-color: #2cacac;
-	  transition: background-color 0.5s ease;
+	  
+	  
 }
 #bulb-button:hover{
 	  background-color: #2cacac;
-	  font-size: larger;
+	  font-size: large;
 	  transform: translate(0px, 5px);
-          -webkit-transform: translate(0px, 5px);
-	
-}
+          transform: scale(1.3) perspective(1px)
+          transition: background-color 0.5s ease;
+	}
 #footer{
 
 	text-align: center;
