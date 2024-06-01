@@ -2,10 +2,9 @@
 
 A simple JavaScript project to toggle a bulb on and off.
 
-![Bulb OFF](https://image.ibb.co/hoBxtm/light_bulb_off.png)
 
 ## Demo
-
+[Demo](https://malik-azad.github.io/Simple-JS-Blub) Here
 Click the button to toggle the bulb state.
 
 ## How to Use
@@ -17,4 +16,4 @@ Click the button to toggle the bulb state.
 
 
 
-  [Demo](https://malik-azad.github.io/Simple-JS-Blub) Here
+  
